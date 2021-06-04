@@ -18,8 +18,8 @@ import it.polito.tdp.PremierLeague.db.PremierLeagueDAO;
 public class Model {
 	
 	private SimpleWeightedGraph<Match, DefaultWeightedEdge> grafo;
-	private PremierLeagueDAO dao;
 	private Map<Integer, Match> idMap;
+	private PremierLeagueDAO dao;
 	private List<Arco> listaArchi;
 	private List<Match> soluzioneMigliore;
 	private int sommaPeso;
