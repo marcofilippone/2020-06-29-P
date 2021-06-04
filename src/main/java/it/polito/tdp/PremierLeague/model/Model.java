@@ -16,7 +16,6 @@ import org.jgrapht.graph.SimpleWeightedGraph;
 import it.polito.tdp.PremierLeague.db.PremierLeagueDAO;
 
 public class Model {
-	prova token
 	
 	private SimpleWeightedGraph<Match, DefaultWeightedEdge> grafo;
 	private Map<Integer, Match> idMap;
